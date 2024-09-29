@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="webytes.css">
+
+</head>
+<body>
+    <p>Flower Gallery</p>
+    <div class="gallery">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" alt="Image 1" onclick="lightbox(this)">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D" alt="Image 2" onclick="lightbox(this)">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1486608766848-9b9fe0c37b9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D" alt="Image 3" onclick="lightbox(this)">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1475872711536-95ec04b9d290?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D" alt="Image 4" onclick="lightbox(this)">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" alt="Image 5" onclick="lightbox(this)">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1446071103084-c257b5f70672?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" alt="Image 6" onclick="lightbox(this)">
+    </div>
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" alt="Lightbox Image">
+    </div>
+    <script src="webytes.js"></script>
+</body>
+</html>
